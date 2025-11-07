@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PAGUYUBAN JAPERS</title>
+
+    <!-- Hubungkan ke file CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ========== HEADER ========== -->
+    <header class="site-header">
+        <div class="header-inner">
+            <div class="brand">
+                <!-- Logo: sesuaikan file di folder images/ -->
+                <img src="logo.jpg" alt="Logo PAGUYUBAN JAPERS" class="logo">
+                <div class="brand-text">
+                    <h1>PAGUYUBAN JAPERS</h1>
+                    <small>Bergerak, Berkarya, Bersama</small>
+                </div>
+            </div>
+
+            <!-- Tombol menu untuk layar kecil -->
+            <button id="nav-toggle" class="nav-toggle" aria-label="Buka Menu">☰</button>
+
+            <!-- Navigasi -->
+            <nav id="main-nav" class="main-nav">
+                <ul>
+                    <li><a href="#beranda">Beranda</a></li>
+                    <li><a href="#tentang">Tentang Kami</a></li>
+                    <li><a href="#program">Program/Kegiatan</a></li>
+                    <li><a href="#kontak">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ========== HERO / BERANDA ========== -->
+    <section id="beranda" class="hero">
+        <div class="hero-content">
+            <h2>Selamat Datang di PAGUYUBAN JAPERS</h2>
+            <p>Satu visi — banyak aksi. Ayo bergabung, belajar, bersenang-senang dan berkarya bersama kami.</p>
+            <div class="hero-actions">
+                <button onclick="scrollToSection('tentang')">Kenali Kami</button>
+                <a href="#program" class="btn-outline">Lihat Kegiatan</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== TENTANG KAMI ========== -->
+  <section id="tentang" class="tentang-section">
+  <div class="container tentang-grid">
+    <div class="tentang-text">
+      <h2>Tentang Kami</h2>
+      <p>
+        <strong>PAGUYUBAN JAPERS</strong> adalah komunitas pemuda yang berkomitmen untuk mendorong 
+        <strong>kreativitas</strong>, <strong>solidaritas</strong>, dan <strong>aksi sosial</strong>. 
+        Kami mengadakan berbagai kegiatan seperti pelatihan pengembangan diri, aksi lingkungan, 
+        serta literasi digital yang bertujuan untuk meningkatkan peran generasi muda dalam masyarakat.
+      </p>
+      <p>
+        Kami percaya bahwa perubahan besar dimulai dari langkah kecil yang dilakukan bersama. 
+        Mari bergabung dan menjadi bagian dari gerakan positif ini.
+      </p>
+    </div>
+    <div class="tentang-image">
+      <img src="kegiatan2.jpg" alt="Foto kegiatan PAGUYUBAN JAPERS">
+      <img src="kegiatan1.jpg" alt="Foto kegiatan PAGUYUBAN JAPERS">
+      <img src="kegiatan3.jpg" alt="Foto kegiatan PAGUYUBAN JAPERS">
+    </div>
+  </div>
+</section>
+
+    <!-- ========== PROGRAM / KEGIATAN ========== -->
+    <section id="program" class="section-white">
+        <div class="container">
+            <h2>Program & Kegiatan</h2>
+
+            
+
+            <!-- GALERI Kegiatan -->
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="11.jpg" alt="Kegiatan 1" data-index="0">
+                </div>
+                <div class="gallery-item">
+                    <img src="kegiatan2.jpg" alt="Kegiatan 2" data-index="1">
+                </div>
+                <div class="gallery-item">
+                    <img src="kegiatan3.jpg" alt="Kegiatan 3" data-index="2">                                           
+                                                                                                
+                </div>
+                 <div class="gallery-item">
+                    <img src="kegiatan4.jpg" alt="Kegiatan " data-index="1">
+                </div>
+                 <div class="gallery-item">
+                    <img src="kegiatan5.jpg" alt="Kegiatan 2" data-index="1">
+                </div>
+                 <div class="gallery-item">
+                    <img src="kegiatan6.jpg" alt="Kegiatan 2" data-index="1">
+                </div>
+                 <div class="gallery-item">
+                    <img src="kegiatan7.jpg" alt="Kegiatan 2" data-index="1">
+                </div>
+                 <div class="gallery-item">
+                    <img src="kegiatan8.jpg" alt="Kegiatan 2" data-index="1">
+                </div>
+                 <div class="gallery-item">
+                    <img src="kegiatan1.jpg" alt="Kegiatan 2" data-index="1">
+                </div>
+                <div class="gallery-item">
+                    <img src="kegiatan9.jpg" alt="Kegiatan 2" data-index="1">
+                </div>
+                 <div class="gallery-item">
+                    <img src="kegiatan10.jpg" alt="Kegiatan 2" data-index="1">
+                </div>
+            </div>
+             </div>
+    </section>
+
+    <!-- ========== KONTAK ========== -->
+   <section id="kontak" class="kontak-section">
+  <div class="container">
+    <h2>Hubungi Kami</h2>
+    <p class="intro">
+      Kami senang mendengar dari Anda! Jangan ragu untuk menghubungi kami melalui email atau media sosial berikut.
+    </p>
+
+    <div class="kontak-grid">
+      <div class="kontak-info">
+        <div class="info-item">
+          <span class="icon">📧</span>
+          <div>
+            <h4>Email</h4>
+            <p><a href="mailto:info@paguyubanjapers.org">info@paguyubanjapers.org</a></p>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <span class="icon">📍</span>
+          <div>
+            <h4>Alamat</h4>
+            <p>Jl. Semangat Muda No. 7, Jakarta Selatan</p>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <span class="icon">📱</span>
+          <div>
+            <h4>Instagram</h4>
+            <p><a href="https://instagram.com/paguyubanjapers" target="_blank">@paguyubanjapers</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="kontak-form">
+        <form onsubmit="alert('Terima kasih! Pesan Anda telah terkirim.'); return false;">
+          <input type="text" placeholder="Nama Anda" required>
+          <input type="email" placeholder="Email Anda" required>
+          <textarea placeholder="Tulis pesan Anda..." rows="4" required></textarea>
+          <button type="submit">Kirim Pesan</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <img src="logo.jpg" alt="Logo Paguyuban Japers" class="footer-logo">
+      <div>
+        <h3>PAGUYUBAN JAPERS</h3>
+        <p>Bergerak, Berkarya, Bersama</p>
+      </div>
+    </div>
+
+    <div class="footer-links">
+      <h4>Tautan Cepat</h4>
+      <ul>
+        <li><a href="#beranda">Beranda</a></li>
+        <li><a href="#tentang">Tentang Kami</a></li>
+        <li><a href="#program">Kegiatan</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-social">
+      <h4>Ikuti Kami</h4>
+      <div class="social-icons">
+        <a href="#" aria-label="Instagram">📷</a>
+        <a href="#" aria-label="YouTube">▶️</a>
+        <a href="#" aria-label="Facebook">📘</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; <span id="year"></span> PAGUYUBAN JAPERS. Semua hak dilindungi.</p>
+  </div>
+</footer>
+</html>
